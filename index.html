@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Justin Macalagh — Software Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Justin Macalagh</h1>
+      <p class="site-subtitle">Software Engineer — Java, Spring Boot, Jasper Reports</p>
+      <button id="nav-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+      <nav id="main-nav" class="main-nav">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="about" class="card">
+      <h2>About</h2>
+      <div class="about-grid">
+        <img src="assets/profile.jpg" alt="Justin Macalagh — profile photo" class="profile">
+        <div>
+          <p>Software Engineer based in Cape Town — experienced in building and maintaining Java-based REST APIs, Spring Boot applications, Jasper Reports and PL/SQL. Strong background in full-stack features using Angular and in-house frameworks. Available immediately.</p>
+          <ul class="contact-list">
+            <li>Email: <a href="mailto:justinmacalagh@gmail.com">justinmacalagh@gmail.com</a></li>
+            <li>Phone: 084 827 2225</li>
+            <li>Location: Cape Town, South Africa</li>
+            <li>Languages: English, Afrikaans</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Experience</h2>
+      <article class="job">
+        <h3>Java Developer — Opencollab</h3>
+        <p class="muted">April 2019 — July 2025</p>
+        <ul>
+          <li>Maintained and developed REST APIs and student management systems on JBoss using Java and Spring Boot.</li>
+          <li>Performed debugging, testing and documentation; used Jenkins for deployments and GIT for source control.</li>
+          <li>Worked with Jasper Reports, Gradle/Maven, JPA/JDBC and Angular for UI features.</li>
+        </ul>
+      </article>
+
+      <article class="job">
+        <h3>Software Developer — Pepkor IT</h3>
+        <p class="muted">Dec 2016 — Mar 2019</p>
+        <ul>
+          <li>Developed features and PL/SQL procedures for ERP systems; produced Jasper Reports and supported users.</li>
+          <li>Worked with AutoSys, Oracle SQL Developer, Git/Subversion and Java Spring Boot where applicable.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="skills" class="card">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div><strong>Languages:</strong><br>Java, SQL, JavaScript, TypeScript, HTML, CSS</div>
+        <div><strong>Frameworks/Tools:</strong><br>Spring Boot, Jasper Reports, Angular, JUnit, Maven/Gradle, Jenkins, Git</div>
+        <div><strong>Databases:</strong><br>MySQL, Oracle (PL/SQL)</div>
+      </div>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <ul>
+        <li>Post Graduate Diploma: Software Development — University of the Western Cape (2016)</li>
+        <li>BSc Computer Systems — CTI (Eduvos) (2014)</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input id="name" name="name" required>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+      <p class="muted">Or email me directly at <a href="mailto:justinmacalagh@gmail.com">justinmacalagh@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">© Justin Macalagh — Cape Town</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
